@@ -40,7 +40,10 @@ const Navbar = () => {
                 </Link>
               </li>
               <li>
-                <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded text-sm">
+                <button
+                  style={{ fontFamily: "Raleway, sans-serif" }}
+                  className="bg-[#647ECB] hover:dropShadow-3xl hover:bg-[#D01498] text-white text-base hover:shadow-lg hover:drop-shadow-[0_8px_15px_#D01498] ease-in-out duration-500 font-bold py-2 px-4 rounded"
+                >
                   Connect
                 </button>
               </li>
