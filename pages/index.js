@@ -1,6 +1,8 @@
 import Head from "next/head";
 import dynamic from "next/dynamic";
 import Card from "./component/Card";
+import DescriptionCard from "./component/DescriptionCard";
+import Footer from "./component/Footer";
 
 const AnimatedCursor = dynamic(() => import("react-animated-cursor"), {
   ssr: false,
@@ -29,6 +31,8 @@ export default function Home() {
       </Head>
       <div>
         <Card />
+        <DescriptionCard />
+        <Footer />
       </div>
     </>
   );

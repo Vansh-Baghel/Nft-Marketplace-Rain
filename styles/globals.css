@@ -4,7 +4,7 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Aboreto&family=Bitter:wght@572&family=DM+Sans&family=Fraunces:opsz@9..144&family=Kanit:wght@500&family=Lato&family=Poppins:wght@600&family=Raleway&family=Roboto&family=Rokkitt&display=swap");
 
-* {
+html {
   background-color: rgb(38, 41, 45);
 }
 
@@ -13,18 +13,17 @@
   color: white;
   font-size: 1rem;
   position: relative;
-  transition: 0.5s ease-in-out;
 }
 
 .nav-item:hover .inner::after {
-  transition: 0.5s ease-in-out;
   content: "";
-    height: 1px;
+  height: 1px;
   background-color: #ff3c78;
   position: absolute;
   width: 0%;
   left: 0;
   bottom: -10px;
+  transition: 0.4s ease-in-out;
 }
 
 .nav-item .inner:hover::after {
@@ -32,6 +31,16 @@
 }
 
 /* Card image */
+
+.nft-head-out {
+  width: 100%;
+}
+
+.nft-head {
+  border-bottom: 3px solid #e91e63;
+  width: 100px;
+  margin: 10px auto;
+}
 
 .full-card-box-1 div {
   background-color: #242435;
@@ -68,6 +77,7 @@
 .full-card-box-3:hover .card-image-3 {
   transform: scale(1.1);
 }
+
 .full-card-box-4 div {
   background-color: #242435;
 }
@@ -78,4 +88,114 @@
 
 .full-card-box-4:hover .card-image-4 {
   transform: scale(1.1);
+}
+
+/* Description */
+.description-out{
+  background-color: #1b1b275d;
+  padding-left: 1rem;
+}
+
+.up-onHover{
+  transition: .5s ease-in-out;
+}
+
+.description-out:hover .up-onHover {
+  transform: translateY(-10px)
+}
+
+.description-out:hover #blue-text {
+  color: #e91e63;
+}
+
+/* Footer */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ul {
+  list-style: none;
+}
+
+.footer {
+  background-color: #24262b;
+  padding: 70px 0;
+}
+
+.footer-col {
+  width: 25%;
+  padding: 0 15px;
+}
+
+.footer-col h4 {
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+}
+
+.footer-col h4::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: #e91e63;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+
+.footer-col ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #bbbbbb;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+  color: #ffffff;
+  padding-left: 8px;
+}
+
+.footer-col .social-links a {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover {
+  color: #24262b;
+  background-color: #ffffff;
+}
+
+/*responsive*/
+@media(max-width: 767px) {
+  .footer-col {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+}
+
+@media(max-width: 574px) {
+  .footer-col {
+    width: 100%;
+  }
 }
