@@ -13,17 +13,18 @@
   color: white;
   font-size: 1rem;
   position: relative;
+  transition: 0.5s ease-in-out;
 }
 
 .nav-item:hover .inner::after {
+  transition: 0.5s ease-in-out;
   content: "";
-  height: 1px;
+    height: 1px;
   background-color: #ff3c78;
   position: absolute;
   width: 0%;
   left: 0;
   bottom: -10px;
-  transition: 0.4s ease-in-out;
 }
 
 .nav-item .inner:hover::after {
@@ -32,8 +33,8 @@
 
 /* Card image */
 
-.full-card-box-1 div{
-  background-color: #242435 ;
+.full-card-box-1 div {
+  background-color: #242435;
 }
 
 .card-image-1 {
@@ -44,8 +45,8 @@
   transform: scale(1.1);
 }
 
-.full-card-box-2 div{
-  background-color: #242435 ;
+.full-card-box-2 div {
+  background-color: #242435;
 }
 
 .card-image-2 {
@@ -56,8 +57,8 @@
   transform: scale(1.1);
 }
 
-.full-card-box-3 div{
-  background-color: #242435 ;
+.full-card-box-3 div {
+  background-color: #242435;
 }
 
 .card-image-3 {
@@ -67,8 +68,8 @@
 .full-card-box-3:hover .card-image-3 {
   transform: scale(1.1);
 }
-.full-card-box-4 div{
-  background-color: #242435 ;
+.full-card-box-4 div {
+  background-color: #242435;
 }
 
 .card-image-4 {

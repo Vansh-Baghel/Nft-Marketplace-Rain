@@ -6,8 +6,7 @@ import FavoriteIcon from "@mui/icons-material/Favorite";
 const Card = () => {
   return (
     <div>
-        <div className="text-xl text-white text-center font-bold">My NFTS</div>
-
+      <div className="text-xl text-white text-center font-bold">My NFTS</div>
       <div className="flex justify-center align-middle flex-wrap">
         <div className="full-card-box-1 max-w-[25%]">
           <div

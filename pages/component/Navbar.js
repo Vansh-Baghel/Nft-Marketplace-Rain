@@ -12,7 +12,7 @@ const Navbar = () => {
   }, [router]);
 
   return (
-    <div className="">
+    <div className="nav-item">
       <nav className="w-screen">
         <ul className="flex items-end justify-between py-3 bg-transparent text-white pr-5">
           <li className="flex items-end ml-5 pb-2">
@@ -24,17 +24,17 @@ const Navbar = () => {
           </li>
           <li className="w-2/6">
             <ul className="lg:flex justify-between font-bold mr-10 text-lg">
-              <li className="nav-item">
+              <li>
                 <Link href="/" className="inner">
                   Market place
                 </Link>
               </li>
-              <li className="nav-item">
+              <li>
                 <Link href="/sellNFT" className="inner">
                   List My NFT
                 </Link>
               </li>
-              <li className="nav-item">
+              <li>
                 <Link href="/profile" className="inner">
                   Profile
                 </Link>
