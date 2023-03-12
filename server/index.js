@@ -3,7 +3,7 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const app = express();
 const jsonParser = bodyParser.json();
-const {postBook, getBooks} = require('./controller/bookController');
+const {postBook, getBooks , getOne , deleteBook} = require('./controller/bookController');
 
 const port = 5000;
 
@@ -17,4 +17,6 @@ mongoose
   .catch((err) => console.log(err));
 
 app.use('/api/v1/postBook' , jsonParser , postBook)
-app.use('/api/v1/getBook' , getBooks)
+app.use('/api/v1/getBooks' , getBooks)
+app.use('/api/v1/getOneBook/:id' , getOne)
+app.use('/api/v1/deleteBook/:id' , deleteBook)
