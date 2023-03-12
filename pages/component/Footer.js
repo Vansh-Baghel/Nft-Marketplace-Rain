@@ -1,4 +1,7 @@
 import React from "react";
+import InstagramIcon from '@mui/icons-material/Instagram';
+import TwitterIcon from "@mui/icons-material/Twitter";
+import FacebookIcon from "@mui/icons-material/Facebook";
 
 const Footer = () => {
   return (
@@ -52,19 +55,22 @@ const Footer = () => {
               </ul>
             </div>
             <div class="footer-col">
-              <h4>follow us</h4>
-              <div class="social-links">
-                <a href="#">
-                  <i class="fab fa-facebook-f"></i>
+              <h4>Follow Me</h4>
+              <div className="social-links">
+                <a
+                  href="https://www.linkedin.com/in/vansh-baghel-24ab42232/"
+                  className="instagram"
+                >
+                  <InstagramIcon />
                 </a>
-                <a href="#">
-                  <i class="fab fa-twitter"></i>
+                <a
+                  href="https://twitter.com/raindropsbooks"
+                  className="facebook"
+                >
+                  <TwitterIcon />
                 </a>
-                <a href="#">
-                  <i class="fab fa-instagram"></i>
-                </a>
-                <a href="#">
-                  <i class="fab fa-linkedin-in"></i>
+                <a href="https://github.com/Vansh-Baghel" className="facebook">
+                  <FacebookIcon />
                 </a>
               </div>
             </div>

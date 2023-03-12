@@ -33,7 +33,7 @@ const Card = () => {
               <div className=" text-white font-[800]">My NFT</div>
               <div className=" text-[#A2A2A2]">1 ETH</div>
               <div className="flex justify-between ">
-                <div className="text-[#C5269D]">Place a bid</div>
+                <div className="text-[#C5269D]">Buy </div>
                 <div>
                   <FavoriteIcon
                     sx={{
@@ -70,7 +70,7 @@ const Card = () => {
               <div className=" text-white font-[800]">My NFT</div>
               <div className=" text-[#A2A2A2]">1 ETH</div>
               <div className="flex justify-between ">
-                <div className="text-[#C5269D]">Place a bid</div>
+                <div className="text-[#C5269D]">Buy </div>
                 <div>
                   <FavoriteIcon
                     sx={{
@@ -107,7 +107,7 @@ const Card = () => {
               <div className=" text-white font-[800]">My NFT</div>
               <div className=" text-[#A2A2A2]">1 ETH</div>
               <div className="flex justify-between ">
-                <div className="text-[#C5269D]">Place a bid</div>
+                <div className="text-[#C5269D]">Buy </div>
                 <div>
                   <FavoriteIcon
                     sx={{
@@ -144,7 +144,7 @@ const Card = () => {
               <div className=" text-white font-[800]">My NFT</div>
               <div className=" text-[#A2A2A2]">1 ETH</div>
               <div className="flex justify-between ">
-                <div className="text-[#C5269D]">Place a bid</div>
+                <div className="text-[#C5269D]">Buy </div>
                 <div>
                   <FavoriteIcon
                     sx={{
@@ -181,7 +181,7 @@ const Card = () => {
               <div className=" text-white font-[800]">My NFT</div>
               <div className=" text-[#A2A2A2]">1 ETH</div>
               <div className="flex justify-between ">
-                <div className="text-[#C5269D]">Place a bid</div>
+                <div className="text-[#C5269D]">Buy </div>
                 <div>
                   <FavoriteIcon
                     sx={{

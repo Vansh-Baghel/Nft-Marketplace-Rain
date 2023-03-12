@@ -109,6 +109,7 @@ html {
 }
 
 /* Footer */
+
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -175,7 +176,7 @@ ul {
   background-color: rgba(255, 255, 255, 0.2);
   margin: 0 10px 10px 0;
   text-align: center;
-  line-height: 40px;
+  line-height: 35px;
   border-radius: 50%;
   color: #ffffff;
   transition: all 0.5s ease;
@@ -185,7 +186,12 @@ ul {
   color: #24262b;
   background-color: #ffffff;
 }
-
+.footer-col .social-links a.facebook:hover {
+  color: #2762f8;
+}
+.footer-col .social-links a.instagram:hover {
+  color: #ea27f8;
+}
 /*responsive*/
 @media(max-width: 767px) {
   .footer-col {
